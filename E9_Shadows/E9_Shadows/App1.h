@@ -32,8 +32,11 @@ private:
 	AModel* model;
 	ShadowShader* shadowShader;
 	DepthShader* depthShader;
-
+	OrthoMesh* orthoMesh;
 	ShadowMap* shadowMap;
+	RenderTexture* renderTexture;
+	Camera* secondCamera;
+	CubeMesh* cubeMesh;
 };
 
 #endif
