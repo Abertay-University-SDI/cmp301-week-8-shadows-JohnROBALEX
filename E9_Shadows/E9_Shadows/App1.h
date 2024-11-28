@@ -37,6 +37,16 @@ private:
 	RenderTexture* renderTexture;
 	Camera* secondCamera;
 	CubeMesh* cubeMesh;
+	SphereMesh* sphereMesh;
+
+	float rotation;
+	float lightDirectionX = 0.0f;
+	float lightDirectionY = -0.7f;
+	float lightDirectionZ = 0.7f;
+
+	float lightPositionX = 0.f;
+	float lightPositionY = 0.f;
+	float lightPositionZ = -10.f;
 };
 
 #endif
